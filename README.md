@@ -5,24 +5,25 @@ class Person:
         self.age = age
 
     def __add__(self, other_obj):
-        return self.age + other_obj.age
+       p11 = Person()
+       return self.age + other_obj.age
         return str(self.age) + other_obj.name = p11.age
 
     def __sub__(self, other_obj):
-        return self.age - other_obj.age= p22.age
+       p22 = Person()
+       return self.age - other_obj.age= p22.age
 
     def __str__(self):
+        p33 = Person()
         return "My name is {} ".format(self.name)
     def __mul__(self, other_obj):
-        return self.age * other_obj.age = p33.age
+       p44 = Person()
+       return self.age * other_obj.age = p33.age
 
     def __truediv__(self, other_obj):
         return self.age / other_obj.age = p44.age
 
-p44 = Person()
-p33 = Person()
-p22 = Person()
-p11 = Person()
+
 p1 = Person("Goshko", 15)
 p2 = Person("Ivan", 14)
 print(p2)
